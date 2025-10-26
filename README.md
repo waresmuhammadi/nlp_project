@@ -11,9 +11,9 @@ A Django-based NLP toolkit for coursework that combines NLTK, spaCy and TextBlob
 - Django views / APIs to expose processing endpoints
 
 ## Prerequisites
-- Python 3.8+ (3.10 or 3.11 recommended)
+- Python 3.8+ (3.10 or 3.13 recommended)
 - pip
-- virtualenv or venv
+- virtualenv or venv or Anaconda
 - Git (optional)
 
 ## Installation (step-by-step)
@@ -76,7 +76,7 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-Open http://127.0.0.1:8000/ (or the configured endpoints) to use the app.
+Open http://127.0.0.1:8000/ http://localhost:8000 / http://<LOCAL IP>:8000 (or the configured endpoints) to use the app.
 
 ## Usage notes
 - The project contains Django apps that expose NLP endpoints (e.g., /api/tokenize, /api/semantic). See the app README or views for exact routes.
